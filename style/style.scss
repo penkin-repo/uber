@@ -439,7 +439,11 @@ nav {
       display: flex;
       justify-content: center;
       align-items: center;
+      margin: 0 auto;
       margin-bottom: 0;
+      @media (max-width: 600px) {
+        flex-direction: column;
+      }
       & li {
         margin-right: 25px;
       }
